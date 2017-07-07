@@ -49,6 +49,30 @@ elemprop: [1.0],
 //DOPED WATER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 {
 name: "MATERIAL",
+index: "doped_water_5",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_10",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
 index: "doped_water_12",
 valid_begin : [0, 0],
 valid_end : [0, 0],
@@ -203,7 +227,427 @@ materials: ["water", "gadolinium",],
 matprop: [0.999, 0.001],
 }
 
+{
+name: "MATERIAL",
+index: "doped_water_25",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_26",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_27",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_28",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_29",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_30",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_31",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_32",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_33",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_34",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_35",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_40",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_45",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_50",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_55",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_60",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_65",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_70",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_75",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_80",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_85",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_90",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_95",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
+{
+name: "MATERIAL",
+index: "doped_water_100",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0,
+nelements: 0,
+nmaterials: 2,
+materials: ["water", "gadolinium",],
+matprop: [0.999, 0.001],
+}
+
 //PTFE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+{
+name: "MATERIAL",
+index: "ptfe_10",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_80",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_81",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_82",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_83",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_84",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_85",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_86",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_87",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_88",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
+{
+name: "MATERIAL",
+index: "ptfe_89",       // Teflon  from NIST database
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 2.20,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon", "Fluorine",],
+elemprop: [0.24018, 0.75982],
+}
+
 {
 name: "MATERIAL",
 index: "ptfe_90",       // Teflon  from NIST database

@@ -1,0 +1,13 @@
+{
+name: "PMTINFO_innerveto",
+valid_begin: [0, 0],
+valid_end: [0, 0],
+//These positions are relative to the GLOBAL origin
+x: [-300.0, ],
+y: [0.0, ],
+z: [-400.0,],
+dir_x: [0.0,],
+dir_y: [0.0,],
+dir_z: [1.0,],
+type: [1, ],
+}

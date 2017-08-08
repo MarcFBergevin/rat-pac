@@ -315,6 +315,8 @@ GLG4PMTOpticalModel::DoIt(const G4FastTrack& fastTrack, G4FastStep& fastStep)
     _rhoDif = (  _photocathode_MAXrho - _photocathode_MINrho);
     _erfProb  = 1.-1./2.*(TMath::Erf(4.0*(_rho-_rhoAvg)/_rhoDif)+1.);
 
+    // G4cout <<"HOLA" << _photocathode_MAXrho<< " " << _photocathode_MINrho << G4endl;
+
     G4int iloop;
     G4int max_iloop= 100;
     for (iloop=0; iloop<max_iloop; iloop++) {

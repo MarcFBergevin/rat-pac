@@ -32,6 +32,7 @@ namespace RAT {
         double timeWindow  = 800., oldGroup;
 
 
+        //cout << "==================NEW EVENT==================" << endl;
         // First part is to load into vector PMT information for full event
         vector <double> timeAndChargeAndID;
         vector<vector <double> > pmtARRAY;
@@ -46,6 +47,8 @@ namespace RAT {
                     timeAndChargeAndID.push_back(i);
                     timeAndChargeAndID.push_back(mcpmt->GetMCPhotonCount());
                     timeAndChargeAndID.push_back(mcpmt->GetMCPhoton(i)->GetHitTime());
+                    
+                    printf("(pmtID, charge,time) (%3.0d, %8.2f, %8.2f)\n", mcpmt->GetID(), mcpmt->GetMCPhoton(i)->GetCharge(), mcpmt->GetMCPhoton(i)->GetFrontEndTime());
 
                     pmtARRAY.push_back(timeAndChargeAndID);
                     timeAndChargeAndID.resize(0);

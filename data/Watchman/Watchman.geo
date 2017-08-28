@@ -12,91 +12,32 @@ invisible: 1,
 
 ///////////////////// Define the rock volumes. Thin slab of rock is assumed ////////////////////////
 
-//Create a 1-mm thick slab of rock to put on the top
+//Create a 1-mm thick slab of rock - box
 {
 name: "GEO",
-index: "rock_21",
+index: "rock",
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "world", // world volume has no mother
 type: "box",
-size: [11250.0, 8500.0,500.0], // mm, half-length
-position: [0.0, 0.0, 16300.0],
-material: "rock", //rock?
-invisible: 1,
-}
-//Create a 1-mm thick slab of rock to put on the bottom
-{
-name: "GEO",
-index: "rock_11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
-mother: "world", // world volume has no mother
-type: "box",
-size: [11250.0, 8500.0,500.0], // mm, half-length
-position: [0.0, 0.0, -8500.],
-material: "rock", //rock?
-color: [0.2,0.2,0.2,0.1],
-drawstyle: "solid"
-}
-
-//Create a 1-mm thick slab of rock to put on side A
-{
-name: "GEO",
-index: "rock_22",
-valid_begin: [0, 0],
-valid_end: [0, 0],
-mother: "world", // world volume has no mother
-type: "box",
-size: [500.0, 8500.0, 11900.0], // mm, half-length
-position: [11750., 0.0, 3900.0],
+size: [11001.0, 11001.0,11001.0], // mm, half-length
+position: [0.0, 0.0, 0.0],
 material: "rock", //rock?
 invisible: 1,
 }
 
-
-//Create a 1-mm thick slab of rock to put on side A
 {
 name: "GEO",
-index: "rock_32",
+index: "cavern",
 valid_begin: [0, 0],
 valid_end: [0, 0],
-mother: "world", // world volume has no mother
+mother: "rock",
 type: "box",
-size: [500.0, 8500.0, 11900.0], // mm, half-length
-position: [-11750., 0.0, 3900.0],
-material: "rock", //rock?
+size: [10001.0, 10001.0, 10001.0], // mm, half-length
+material: "air", //rock?
 invisible: 1,
 }
 
-
-//Create a 1-mm thick slab of rock to put on side B
-{
-name: "GEO",
-index: "rock_23",
-valid_begin: [0, 0],
-valid_end: [0, 0],
-mother: "world", // world volume has no mother
-type: "box",
-size: [11250.0,500.0, 11900.0], // mm, half-length
-position: [0.0,9000. , 3900.0],
-material: "rock", //rock?
-invisible: 1,
-}
-
-//Create a 1-mm thick slab of rock to put on side B
-{
-name: "GEO",
-index: "rock_12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
-mother: "world", // world volume has no mother
-type: "box",
-size: [11250.0,500.0, 11900.0], // mm, half-length
-position: [0.0,-9000. , 3900.0],
-material: "rock", //rock?
-invisible: 1,
-}
 
 ////////////////////////////////// Define the rock volumes done.///////////////////////////////////
 
@@ -108,7 +49,7 @@ name: "GEO",
 index: "tank",
 valid_begin: [0, 0],
 valid_end: [0, 0],
-mother: "world",
+mother: "cavern",
 type: "tube",
 r_max: 8000.0,
 size_z: 8000.0,
@@ -202,7 +143,8 @@ veto_back_surface: "black_water",
 veto_back_vis: "veto_vis",
 
 //properties to define the shield
-detector_size: 16000.0,
+detector_size_r: 16000.0,
+detector_size_z: 16000.0,
 shield_thickness: 1600.0,
 steel_thickness: 1.5875,
 cols: 96,
@@ -217,7 +159,7 @@ color: [0.1, 0.8, 0.1, 0.01],
 }
 
 // Fiducial defined as separate geometry component a la baccarat
-/*{
+{
 name: "GEO",
 index: "fiducial",
 valid_begin: [0, 0],
@@ -231,7 +173,7 @@ material: "doped_water",
 color: [0.2,0.2,0.2,0.1],
 drawstyle: "solid",
 invisible: 1
-}*/
+}
 
 {
 name: "GEO",

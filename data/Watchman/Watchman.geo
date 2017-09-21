@@ -15,7 +15,7 @@ invisible: 1,
 //Create a 1-mm thick slab of rock - box
 {
 name: "GEO",
-index: "rock",
+index: "rock_1",
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "world", // world volume has no mother
@@ -31,7 +31,7 @@ name: "GEO",
 index: "cavern",
 valid_begin: [0, 0],
 valid_end: [0, 0],
-mother: "rock",
+mother: "rock_1",
 type: "box",
 size: [10001.0, 10001.0, 10001.0], // mm, half-length
 material: "air", //rock?
@@ -159,6 +159,7 @@ color: [0.1, 0.8, 0.1, 0.01],
 }
 
 // Fiducial defined as separate geometry component a la baccarat
+/*
 {
 name: "GEO",
 index: "fiducial",
@@ -174,6 +175,7 @@ color: [0.2,0.2,0.2,0.1],
 drawstyle: "solid",
 invisible: 1
 }
+*/
 
 {
 name: "GEO",
@@ -186,7 +188,7 @@ type: "pmtarray",
 end_idx: 4329, //idx of the last pmt
 start_idx: 0, //idx of the first pmt
 pmt_model: "r7081pe",
-mu_metal: 1,
+mu_metal: 0,
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner",
 efficiency_correction: 0.90000,
@@ -206,7 +208,7 @@ type: "pmtarray",
 end_idx: 4811, //idx of the last pmt
 start_idx: 4330, //idx of the first pmt
 pmt_model: "r7081pe",
-mu_metal: 1,
+mu_metal: 0,
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/veto",
 efficiency_correction: 0.90000,
